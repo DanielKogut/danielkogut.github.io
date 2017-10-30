@@ -95,10 +95,10 @@ body {
 .header__iphone {
 	position: relative;
 	left: -100px;
-    bottom: -450px;
+    bottom: -270px;
 }
 .header__iphone img {
-	max-width: 100%;
+
 }
 /* Start */
 .start {
@@ -219,7 +219,7 @@ body {
 }
 .sign h2 + p {
 	font-size: 13px;
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 }
 .sign > p:last-child {
 	font-size: 13px;
@@ -420,16 +420,17 @@ body {
 	width: 400px;
 	border-radius: 2px;
 	border: none;
+	font-size: 25px;
 }
 .input-field button {
-/*	height: 60px;
+	height: 60px;
 	width: 70px;
 	background-color: #82ca9c;
 	border: none;
 	position: relative;
 	left: -6px;
-	top: 4px;
-	border-radius: 2px;*/
+	top: -1px;
+	border-radius: 2px;
 }
 .fa-check {
 	color: white;
