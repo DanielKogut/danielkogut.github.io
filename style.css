@@ -11,7 +11,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font: inherit;
 	vertical-align: baseline;
 }
-
 /* Grid */
 
 .row:before, 
@@ -88,6 +87,7 @@ body {
 	font-size: 13px;
 	font-weight: normal;
 	padding-top: 15px;
+	font-weight: 300;
 }
 .header__logo {
 	margin-top: 56px;
@@ -96,9 +96,6 @@ body {
 	position: relative;
 	left: -100px;
     bottom: -270px;
-}
-.header__iphone img {
-
 }
 /* Start */
 .start {
@@ -118,6 +115,7 @@ body {
 	padding: 20px 0;
 	color: #959595;
 	font-size: 14px;
+	font-weight: 300;
 }
 .right-side {
 	margin-top: 244px;
@@ -126,10 +124,18 @@ body {
 	padding: 20px 0;
 	color: #959595;
 	font-size: 14px;
+	font-weight: 300;
 }
 /*   Box Grid   */
+.offset {
+	padding-left: 10px;
+}
 
-
+.sign .fa-heart-o {
+	float: right;
+	font-size: 18px;
+	color: white;
+}
 .design {
 	background: #f5989d;
 	height: 278px;
@@ -144,6 +150,7 @@ body {
 .design h2 + p {
 	font-size: 13px;
 	padding-bottom: 30px;
+	font-weight: 300;
 }
 .design > p:last-child {
 	font-size: 13px;
@@ -162,6 +169,7 @@ body {
 .built h2 + p {
 	font-size: 13px;
 	padding-bottom: 30px;
+	font-weight: 300;
 }
 .built > p:last-child {
 	font-size: 13px;
@@ -182,10 +190,16 @@ body {
 .clients h2 + p {
 	font-size: 13px;
 	padding-bottom: 30px;
+	font-weight: 300;
 }
 .clients > p:last-child {
 	font-size: 13px;
 	font-weight:bold;
+}
+.clients .fa-heart-o {
+	float: right;
+	font-size: 18px;
+	color: white;
 }
 .great {
 	background-color: rgba(189,140,191,1.00);
@@ -200,6 +214,7 @@ body {
 .great h2 + p {
 	font-size: 13px;
 	padding-bottom: 30px;
+	font-weight: 300;
 }
 .great > p:last-child {
 	font-size: 13px;
@@ -220,6 +235,7 @@ body {
 .sign h2 + p {
 	font-size: 13px;
 	padding-bottom: 50px;
+	font-weight: 300;
 }
 .sign > p:last-child {
 	font-size: 13px;
@@ -238,6 +254,7 @@ body {
 .perfect h2 + p {
 	font-size: 13px;
 	padding-bottom: 30px;
+	font-weight: 300;
 }
 .perfect > p:last-child {
 	font-size: 13px;
@@ -258,11 +275,17 @@ body {
 .something h2 + p {
 	font-size: 13px;
 	padding-bottom: 30px;
+	font-weight: 300;
 }
 .something > p:last-child {
 	font-size: 13px;
 	font-weight:bold;
 } 
+.something .fa-heart-o {
+	float: right;
+	font-size: 18px;
+	color: white;
+}
 /* Four Column */
 .four__col {
 	color:black;
@@ -271,18 +294,30 @@ body {
 .four__col p {
 	color: #959595;
 	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
 }
 .four__col .row h1 {
 	font-size: 35px;
 	font-weight: lighter;
 	margin-top: 67px;
+	text-align: center;
 }
 .four__col .row h4 {
 	margin-top:34px;
 	margin-bottom: 30px;
 	color: #67676d;
 }
-
+.background {
+	padding: 50px;
+}
+.background h4 {
+	text-align: center;
+}
+.background:hover {
+	background-color: rgba(246,247,250,1.00);
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 /* Full Image */
 .full__image {
 	background-image: url(Pictures/foto4.jpg);
@@ -301,6 +336,8 @@ body {
 }
 .full__image-text p {
 	font-size: 13px;
+	font-weight: 300;
+	line-height: 24px;
 }
 .full__image-text p:last-child {
 	font-size: 14px;
@@ -320,10 +357,15 @@ body {
 }
 .green h4 {
 	padding: 20px 0;
+	font-size: 14px;
+	font-weight: 400;
 }
 .green p {
 	padding-bottom: 155px;
 	text-align:justify;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 24px;
 }
 /* buying */
 .buying {
@@ -339,14 +381,17 @@ body {
 }
 .buying__button p {
 	color: white;
+	font-size: 11px;
+	text-transform: uppercase;
+	padding: 1px 7px;
 }
 .buying h4 {
-	font-size: 40px;
+	font-size: 30px;
 	color: #2e3b4e;
 	padding: 10px 0;
 	font-weight: lighter;
 }
-.buying p {
+.box-shadow > p {
 	color: #8297a7;
 	font-size: 14px;
 	line-height: 25px;
@@ -372,6 +417,14 @@ body {
 .box-shadow:hover {
 	background-color: white;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.box-shadow:hover .buying__button{
+	color: white;
+	background-color: #bd8cbf;
+}
+
+.box-shadow:hover p:first-child {
+	color: white;
 }
 /* Footer */
 .footer {
@@ -399,8 +452,8 @@ body {
 }
 .header__footer p {
 	font-size: 13px;
-	font-weight: normal;
 	font-weight: 300;
+	line-height: 24px;
 }
 .down__footer ul {
 	list-style-type: none;
@@ -420,7 +473,7 @@ body {
 	width: 400px;
 	border-radius: 2px;
 	border: none;
-	font-size: 25px;
+	font-size: 15px;
 }
 .input-field button {
 	height: 60px;
@@ -429,7 +482,7 @@ body {
 	border: none;
 	position: relative;
 	left: -6px;
-	top: -1px;
+	top: 2px;
 	border-radius: 2px;
 }
 .fa-check {
